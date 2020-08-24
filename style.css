@@ -1,0 +1,140 @@
+.header-top__right {
+    margin-top: 13px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 13px;
+}
+    
+.right__element {
+    margin-right: 16px;
+}
+
+.center {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.center-container {
+    flex-direction: column;
+}
+
+.center-container .center__title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    font-size: 80px;
+    margin-top: 130px;
+    margin-bottom: 20px; 
+    align-items: baseline;
+}
+
+.center__title span:nth-child(1){
+    font-size:90px;
+    color:#4284f4;
+}
+.center__title span:nth-child(2){
+    color:#ea4436;
+}
+.center__title span:nth-child(3){
+    color:#fabc05;
+}
+.center__title span:nth-child(4){
+    color:#4284f4;
+}
+.center__title span:nth-child(5){
+    color:#34a853;
+}
+.center__title span:nth-child(6){
+    color:#ea4436;
+}
+
+.center-container .center__search{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    width: 585px;
+}
+
+.center__search .search__column .input__comment{
+    height: 45px;
+    width: 448px;
+    border: none;
+    font-size: 14px;
+}
+
+.center__search .search__column .input__comment:focus{
+    outline: none;
+}
+
+.center__search:hover{
+    box-shadow : 0 1px 6px 0 rgba(32,33,36,0.28);
+    
+}
+
+.center__search .search__column i {
+    color: #222;
+    opacity: 0.6;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+.center__search .search__column i:nth-last-child(1) {
+    padding-left: 20px;
+    padding-right: 20px;
+    color:  #4285F4;
+    opacity: 1;
+}
+
+.center__button{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.center__button .button__google,
+.center__button .button__lucky {
+    background-color: #f2f2f2;
+    border : none;
+    border-radius: 3px;
+    margin-left: 13px;
+    padding: 10px 20px;
+    font-size: 14px;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+footer {
+    position: absolute;
+    font-size: 12px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+	padding: 10px 20px 10px 20px;
+	color: #898a88;
+    background:#f2f2f2;
+}
+.nation{
+    border-bottom: 1px solid #e8e8e8;
+    padding-bottom: 10px;
+}
+.bottom{
+    display: flex;
+    padding-top: 10px;
+}
+.left{
+    flex:1;
+}
+.right{
+    flex: 1;
+    text-align: right;
+}
+.middle{
+    margin-left: 10px;
+    margin-right: 10px;
+}
