@@ -68,13 +68,8 @@
     font-size: 14px;
 }
 
-.center__search .search__column .input__comment:focus{
-    outline: none;
-}
-
 .center__search:hover{
     box-shadow : 0 1px 6px 0 rgba(32,33,36,0.28);
-    
 }
 
 .center__search .search__column i {
